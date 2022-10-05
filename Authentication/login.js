@@ -43,20 +43,23 @@ login.addEventListener("click", () => {
                document.getElementById("loginUserPass").value = "XXXXX"
           }
      }
-     let stateRed = "#ff837f"
-     if (loginUserName.value.length >= 5 && loginUserPass.value.length >= 5 && loginUserName.value != XXXXX ) {
-          alert("No user Found Recheck Your Credentaials")
-     } else {
-          if (loginUserName.value == "" && loginUserPass.value == "") {
-               alert("Password and UserName is empty")
-          } else if (loginUserName.value == "") {
-               alert("UserName is empty")
-          } else if (loginUserPass.value == "") {
-               alert("Your Password is empty")
-          } else if (loginUserName.value != "" && loginUserPass.value != "") {
-               alert("Password or UserName length is less then 5 char")
+     if (localStorage.getItem("userStatus") != "success") {
+          let stateRed = "#ff837f"
+          if (loginUserName.value.length >= 5 && loginUserPass.value.length >= 5) {
+               alert("No user Found Recheck Your Credentaials")
+          } else {
+               if (loginUserName.value == "" && loginUserPass.value == "") {
+                    alert("Password and UserName is empty")
+               } else if (loginUserName.value == "") {
+                    alert("UserName is empty")
+               } else if (loginUserPass.value == "") {
+                    alert("Your Password is empty")
+               } else if (loginUserName.value != "" && loginUserPass.value != "") {
+                    alert("Password or UserName length is less then 5 char")
+               }
           }
      }
+
      // if(loginUserName == "" && loginUserPass == ""){
      // loginUserName.style.borderColor = stateRed
      // loginUserName.style.backgroundColor = stateRed
