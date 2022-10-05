@@ -1,0 +1,17 @@
+-------- completed 
+multipage website
+login system
+good userInterface 
+
+
+
+
+-------- pending
+genrate random password
+password table
+notification timely
+copy password to clipboard
+hosting
+passcode History 
+passcode Information
+
