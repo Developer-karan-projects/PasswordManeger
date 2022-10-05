@@ -1,57 +1,72 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
+body {
   height: 100vh;
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(171,102,255,1) 0%, rgba(116,182,247,1) 90% );
-  width: 100% ;
-  font-size: 18px;
-  font-weight : 200;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(171, 102, 255, 1) 0%, rgba(116, 182, 247, 1) 90%);
+  width: 100%;
+  font-size: 15px;
+  font-weight: 100;
 }
-.signupOuerContainer{
+
+h2 {
+  font-weight: 300;
+}
+
+.signupOuerContainer {
   display: flex;
   height: 100vh;
   justify-content: center;
   align-items: center;
 }
-.signupInnerContainer{
+
+.signupInnerContainer {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 50px;
   border-radius: 7px;
-  border: 1px solid white ;
+  border: 1px solid white;
 }
-.signupInputArea{
+
+.signupInputArea {
   display: grid;
   gap: 12px;
 }
-input{
+
+input {
   font-size: 18px;
   padding: 7px;
   outline: none;
+  font-weight: 200;
+  font-size: 15px;
 }
-button{
+
+button {
   width: 100%;
-  border: none ;
-  background-color: rgba(171,102,255,1);
-  color: floralwhite ;
-  font-weight: bolder ;
+  border: none;
+  background-color: rgba(171, 102, 255, 1);
+  color: floralwhite;
+  font-weight: bolder;
   margin: 17px 0;
   padding: 9px;
-  border-radius: 5px ;
-  font-size: 18px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 100;
 }
-.center{
-  display: flex ;
-  justify-content: center ;
+
+.center {
+  display: flex;
+  justify-content: center;
 }
+
 .signupInputArea p {
   text-align: center;
 }
-#userNamePara{
+
+#userNamePara {
   font-size: 12px;
   color: red;
   padding-left: 10px;

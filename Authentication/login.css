@@ -9,7 +9,11 @@ body{
   height: 100vh;
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(171,102,255,1) 0%, rgba(116,182,247,1) 90% );
   width: 100% ;
-  font-size: 18px;
+  font-size: 15px;
+  font-weight: 100;
+}
+h2{
+  font-weight: 300;
 }
 .loginOuerContainer{
   display: flex;
@@ -31,6 +35,8 @@ input{
   font-size: 18px;
   padding: 7px;
   outline: none;
+  font-weight: 200;
+    font-size: 15px;
 }
 button{
   width: 100%;
@@ -41,7 +47,8 @@ button{
   margin: 17px 0;
   padding: 9px;
   border-radius: 5px ;
-  font-size: 18px;
+  font-size: 15px;
+  font-weight: 100;
 }
 .center{
   display: flex ;
