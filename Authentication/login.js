@@ -38,7 +38,7 @@ login.addEventListener("click", () => {
                localStorage.setItem("userStatus", "success")
                // current user 
                localStorage.setItem("currentUser", `${loginUserName.value}`)
-               window.location.replace("../userProfile/profile.html")
+               window.location.replace("../userProfile/Profile.html")
                document.getElementById("loginUserName").value = "XXXXX"
                document.getElementById("loginUserPass").value = "XXXXX"
           }
